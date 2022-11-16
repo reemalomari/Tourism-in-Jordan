@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Gallery</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords"
+		  content="Villas Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+		var i = 0;
+		
+		function pictureChange() {
+			
+				if (i == 0) {
+					document.getElementById("theImage").src = ("images/check.jpg");
+					i++;
+				}
+				else if (i == 1) {
+					document.getElementById("theImage").src = ("images/11.jpg");
+					i--;
+				}
+            }
+        function pictureChange2() {
+
+            if (i == 0) {
+                document.getElementById("theImage2").src = ("images/check.jpg");
+                i++;
+            }
+            else if (i == 1) {
+                document.getElementById("theImage2").src = ("images/33.jpg");
+                i--;
+            }
+        }
+        function pictureChange3() {
+
+            if (i == 0) {
+                document.getElementById("theImage3").src = ("images/check.jpg");
+                i++;
+            }
+            else if (i == 1) {
+                document.getElementById("theImage3").src = ("images/22.jpg");
+                i--;
+            }
+		}
+        function pictureChange4() {
+
+            if (i == 0) {
+                document.getElementById("theImage4").src = ("images/check.jpg");
+                i++;
+            }
+            else if (i == 1) {
+                document.getElementById("theImage4").src = ("images/44.jpg");
+                i--;
+            }
+		}
+        function pictureChange5() {
+
+            if (i == 0) {
+                document.getElementById("theImage5").src = ("images/check.jpg");
+                i++;
+            }
+            else if (i == 1) {
+                document.getElementById("theImage5").src = ("images/55.jpeg");
+                i--;
+            }
+		}
+        function pictureChange6() {
+
+            if (i == 0) {
+                document.getElementById("theImage6").src = ("images/check.jpg");
+                i++;
+            }
+            else if (i == 1) {
+                document.getElementById("theImage6").src = ("images/66.jpg");
+                i--;
+            }
+        }
+		
+	</script>
+    <style>
+		label:hover{
+        	font-size:30px;
+		}
+
+	</style>
+	<!-- //Meta tag Keywords -->
+	<!-- Custom-Files -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<!-- Font-Awesome-Icons-CSS -->
+	<!-- //Custom-Files -->
+	<!-- Web-Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Oxygen:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+	<!-- //Web-Fonts -->
+</head>
+
+<body>
+	<!-- main banner -->
+	<div class="main-top" id="home">
+		<!-- header -->
+		<header>
+			<div class="container-fluid">
+				<div class="header d-md-flex justify-content-between align-items-center py-3 px-xl-5 px-lg-3 px-2">
+					<!-- logo -->
+					<div id="logo">
+						<h1><a href="index.html">HKJ</a></h1>
+					</div>
+					<!-- //logo -->
+					<!-- nav -->
+					<div class="nav_w3ls">
+						<nav>
+							<label for="drop" class="toggle">Menu</label>
+							<input type="checkbox" id="drop" />
+							<ul class="menu">
+								<li><a href="index.html" class="active">Home</a></li>
+
+								<li><a href="gallery.html">Gallery</a></li>
+
+								<li><a href="contact.html">Contact Us</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- //nav -->
+				</div>
+			</div>
+		</header>
+		<!-- //header -->
+		<!-- banner -->
+		<div class="banner_w3lspvt-2">
+
+		</div>
+		<!-- //banner -->
+	</div>
+	<!-- //main banner -->
+	<!-- page details -->
+	<div class="breadcrumb-mobamu">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item">
+				<a href="index.html">Home</a>
+			</li>
+			<li class="breadcrumb-item active" aria-current="page">Gallery</li>
+		</ol>
+	</div>
+	<!-- //page details -->
+	<!-- Gallery -->
+	<section class="gallery py-5" id="gallery">
+		<div class="container py-md-5">
+			<h3 class="tittle text-center font-weight-bold">Our Gallery</h3>
+			<p class="sub-tittle text-center mt-2 mb-sm-5 mb-4 pb-xl-3">
+			   showing a few introductory pictures of the most prominent tourist areas in Jordan <br />
+				with a simple overview of each of them.
+			</p>
+			<div class="row news-grids no-gutters text-center">
+				<div class="col-md-4 gal-img">
+					<a href="#gal1">
+
+						<img id="theImage" src="images/11.jpg" alt="Gallery Image" class="img-fluid">
+					</a>
+					<br />
+					<p><label value="JERASH">JERASH</label></p>
+					<p><input type="button" id="theButton" value="click me to check! Re-click to uncheck!" onclick="pictureChange()"></p>
+					<button onclick="location.href = 'https://en.wikipedia.org/wiki/Jerash';" id="myButton" >Read More</button>
+
+				</div>
+
+				<div class="col-md-4 gal-img">
+					<a href="#gal2">
+						<img id="theImage2" src="images/33.jpg" alt="Gallery Image" class="img-fluid">
+					</a>
+					<p><label value="DEADSEA">DEADSEA</label></p>
+					<p><input type="button" id="theButton" value="click me to check! Re-click to uncheck!" onclick="pictureChange2()"></p>
+					<button onclick="location.href = 'https://en.wikipedia.org/wiki/Dead_Sea';" id="myButton">Read More</button>
+
+				</div>
+
+
+				<div class="col-md-4 gal-img">
+					<a href="#gal3">
+						<img id="theImage3" src="images/22.jpg" alt="Gallery Image" class="img-fluid">
+					</a>
+					<p><label value="PETRA">PERTA</label></p>
+					<p><input type="button" id="theButton" value="click me to check! Re-click to uncheck!" onclick="pictureChange3()"></p>
+					<button onclick="location.href = 'https://en.wikipedia.org/wiki/Perta_(Lycaonia)';" id="myButton">Read More</button>
+
+				</div>
+				<div class="col-md-4 gal-img">
+					<a href="#gal4">
+						<img id="theImage4" src="images/44.jpg" alt="Gallery Image" class="img-fluid">
+					</a>
+					<p><label value="WADI RUM">WADI RUM</label></p>
+					<p><input type="button" id="theButton" value="click me to check! Re-click to uncheck!" onclick="pictureChange4()"></p>
+					<button onclick="location.href = 'https://en.wikipedia.org/wiki/Wadi_Rum';" id="myButton">Read More</button>
+
+				</div>
+				<div class="col-md-4 gal-img">
+					<a href="#gal5">
+						<img id="theImage5" src="images/55.jpeg" alt="Gallery Image" class="img-fluid">
+					</a>
+					<p><label value="ROMAN AMPHITHEATER">ROMAN THEATER</label></p>
+					<p><input type="button" id="theButton" value="click me to check! Re-click to uncheck!" onclick="pictureChange5()"></p>
+					<button onclick="location.href = 'https://en.wikipedia.org/wiki/Roman_Theater_(Amman)';" id="myButton">Read More</button>
+
+				</div>
+				<div class="col-md-4 gal-img">
+					<a href="#gal6">
+						<img id="theImage6" src="images/66.jpg" alt="Gallery Image" class="img-fluid">
+					</a>
+					<p><label value="HAMMAMAT MA'IN">HAMMAMAT MA'IN</label></p>
+					<p><input type="button" id="theButton" value="click me to check! Re-click to uncheck!" onclick="pictureChange6()"></p>
+					<button onclick="location.href = 'https://en.wikipedia.org/wiki/Ma%27in_Hot_Springs';" id="myButton">Read More</button>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- gallery popups -->
+	<!-- popup-->
+	<div id="gal1" class="pop-overlay animate">
+		<div class="popup">
+			<img src="images/11.jpg" alt="Popup Image" class="img-fluid" />
+			<p class="mt-4">
+				Jerash is a wonderful blend of Greco-Roman and Oriental influences.
+				A great place to visit during spring. Every year Jerash also hosts the Jerash Festival of Culture and Arts,
+				a three-week summer program filled with folk dance, music and theater performances.
+			</p>
+			<a class="close" href="#gallery">&times;</a>
+		</div>
+	</div>
+	<!-- //popup -->
+	<!-- popup-->
+	<div id="gal2" class="pop-overlay animate">
+		<div class="popup">
+			<img src="images/33.jpg" alt="Popup Image" class="img-fluid" />
+			<p class="mt-4">
+				The picturesque natural wonders of the Dead Sea are ideal for religious tourism and enjoyment.
+				The main attraction of the Dead Sea is the warm and salty water itself-ten times 
+				saltier than sea water, rich in salts of magnesium chloride, sodium, potassium
+				and many other species.
+			</p>
+			<a class="close" href="#gallery">&times;</a>
+		</div>
+	</div>
+	<!-- //popup -->
+	<!-- popup-->
+	<div id="gal3" class="pop-overlay animate">
+		<div class="popup">
+			<img src="images/22.jpg" alt="Popup Image" class="img-fluid" />
+			<p class="mt-4">
+				Petra is considered one of the Seven Wonders of the World.
+				Inhabited by the Nabateans, Edomites, and Romans, Petra combined the knowledge 
+				and skill of these civilizations to create this universal wonder. 
+				Caravans laden with incense, silk, spices, and other exotic goods lay in Petra.
+
+			</p>
+			<a class="close" href="#gallery">&times;</a>
+		</div>
+	</div>
+	<!-- //popup3 -->
+	<!-- popup-->
+	<div id="gal4" class="pop-overlay animate">
+		<div class="popup">
+			<img src="images/44.jpg" alt="Popup Image" class="img-fluid" />
+			<p class="mt-4">
+				Wadi Rum is a famous Jordanian desert landscape and one of the best places to visit in the country.
+				The beauty of this rugged landscape has made it the country's main movie star, 
+				playing leading roles in films as diverse as the award-winning Theeb in Jordan (where she played her).
+			</p>
+			<a class="close" href="#gallery">&times;</a>
+		</div>
+	</div>
+	<!-- //popup -->
+	<!-- popup-->
+	<div id="gal5" class="pop-overlay animate">
+		<div class="popup">
+			<img src="images/55.jpeg" alt="Popup Image" class="img-fluid" />
+			<p class="mt-4">
+				The Roman Theater is a famous landmark in the Jordanian capital, with a capacity of six thousand seats.
+				Due to the quality of its sound system, it is used in national concerts and annual country festivals.
+			
+			</p>
+			<a class="close" href="#gallery">&times;</a>
+		</div>
+	</div>
+	<!-- //popup -->
+	<!-- popup-->
+	<div id="gal6" class="pop-overlay animate">
+		<div class="popup">
+			<img src="images/66.jpg" alt="Popup Image" class="img-fluid" />
+			<p class="mt-4">
+				Ma'in is a wonderful hot spring waterfall resort located by the Dead Sea.
+				This resort is located at a depth of 264 meters below sea level amidst a peaceful landscape.
+			</p>
+			<a class="close" href="#gallery">&times;</a>
+		</div>
+	</div>
+	<!-- //popup -->
+	<!-- //gallery popups -->
+	<!-- //gallery -->
+	
+	<!-- footer -->
+	<footer class="py-5">
+		<div class="container pt-xl-4">
+			<div class="row footer-top">
+				<div class="col-lg-4 col-md-6 footer-grid_section_1its">
+					<h2 class="logo-2 mb-lg-4 mb-3">
+						<a href="index.html" class="text-uppercase text-wh">HKJ</a>
+					</h2>
+
+				</div>
+				<div class="col-lg-2 col-md-6 footer-grid_section_1its mt-md-0 mt-4">
+					<h3 class="footer-title text-uppercase text-wh mb-lg-4 mb-3">Links</h3>
+					<ul class="list-unstyled">
+						<li class="mb-3">
+							<a href="index.html">Home</a>
+						</li>
+						<li class="mb-3">
+							<a href="gallery.html">Gallery</a>
+						</li>
+
+						<li class="mb-3">
+							<a href="contact.html">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-6 footer-grid_section_1its mt-lg-0 mt-4">
+					<h3 class="footer-title text-uppercase text-wh mb-lg-4 mb-3">Contact Info</h3>
+					<div class="contact-info">
+						<div class="footer-style-w3ls mb-4">
+							<h4 class="text-li mb-2">Phone</h4>
+							<p>+962 79821 6515</p>
+						</div>
+						<div class="footer-style-w3ls mb-4">
+							<h4 class="text-li mb-2">Email </h4>
+							<p><a href="mailto:info@example.com">ralomari962@gmail.com</a></p>
+						</div>
+						<div class="footer-style-w3ls mb-4">
+							<h4 class="text-li mb-2">Location</h4>
+							<p>Jordan</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 footer-grid_section_1its mt-lg-0 mt-4">
+					<!-- social icons -->
+					<div class="mobamuinfo_social_icons">
+
+						<h4 class="footer-title text-uppercase text-wh mb-lg-4 mb-3">Catch on Social</h4>
+						<ul class="mobamuits_social_list list-unstyled">
+							<li class="w3_mobamu_facebook">
+								<a href="https://www.facebook.com/reem.alomari17">
+									<span class="fa fa-facebook-f"></span>
+								</a>
+							</li>
+
+						</ul>
+					</div>
+					<!-- social icons -->
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- //footer -->
+	<!-- copyright -->
+	<div class="cpy-right text-center py-3">
+		<p>
+			© 2022 - JORDAN - Reem Al-Omari - All rights reserved
+		</p>
+	</div>
+	<!-- //copyright -->
+	<!-- move top icon -->
+	<a href="#home" class="move-top text-center"></a>
+	<!-- //move top icon -->
+
+</body>
+
+</html>
